@@ -243,7 +243,7 @@ def build_telemetry_payload(data, cities, log_reader, ets2_pid, start_ts):
 
     in_world = abs(x) > 0.01 or abs(z) > 0.01
     nearest = find_nearest_city(cities, x, z) if in_world else None
-    city_text = f"{nearest['name']} yakınlarında ({nearest['country']})" if nearest else "Avrupa Yolları"
+    city_text = f"{nearest['name']} ({nearest['country']})" if nearest else "Avrupa Yolları"
 
     icon_emoji = "🚌" if is_bus else ("🚗" if is_car else "🚛")
     small_image = resolve_brand_icon(brand_id, brand)
@@ -321,7 +321,7 @@ def build_fallback_payload(cities, log_reader, ets2_pid, start_ts):
     is_bus = log_reader.vehicle_class == "bus" or log_reader.has_bus_dlc
     if log_reader.last_coords:
         nearest = find_nearest_city(cities, *log_reader.last_coords)
-        city_text = f"{nearest['name']} yakınlarında ({nearest['country']})" if nearest else "Avrupa Yolları"
+        city_text = f"{nearest['name']} ({nearest['country']})" if nearest else "Avrupa Yolları"
     else:
         city_text = "Avrupa Yolları"
 

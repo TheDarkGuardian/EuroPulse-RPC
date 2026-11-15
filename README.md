@@ -14,7 +14,7 @@
 ```text
 Oynuyor: Euro Truck Simulator 2
   🚌 Volvo 9700 • Rotada 196 km
-  📍 Eindhoven yakınlarında (Hollanda) • ⚡ 113 km/s
+  📍 Eindhoven (Hollanda) • ⚡ 113 km/s
   ⏱️ 08:28 geçti
 
   [Büyük Görsel] Coaches DLC • Volvo 9700 (MA BG 275)
