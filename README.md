@@ -11,6 +11,8 @@
 
 ## ✨ Örnek Discord Görünümü
 
+![EuroPulse RPC Örnek Discord Görünümü](assets/preview.png)
+
 ```text
 Oynuyor: Euro Truck Simulator 2
   🚌 Volvo 9700 • Rotada 196 km
